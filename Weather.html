@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="container">
+        
+        <h1 id="headin">WEATHER APP</h1>   
+        <div id="map">
+
+        </div>
+
+        <div id="weather">
+        <h1 id="place">Banglore</h1>
+        <div id="img-temp">
+            <img id="image" src="animated/cloudy-day-1.svg">
+            <div id="temp-desc">Temp:    21 °C</div>
+        </div>
+        <!-- <div id="temp-desc">Temp:    21 °C</div> -->
+
+        <div id="max-min">
+            <div id="max">Max:   22 °C</div>
+            <div id="min">Min:   20 °C</div>
+        </div>
+        <div id="speed">Speed: 20 m/s</div>
+    </div>
+</div>
+
+    <script src="weather.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+</body>
+</html>
