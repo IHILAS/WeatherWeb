@@ -1,45 +1,51 @@
-#weather{
-    height: 350px;
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid blue;
-    background-color: aliceblue;    
-    position: absolute;
-    right: 50px;
-    top: 100px;
-    z-index: 1000;
-    opacity: 0.8;
+  body {
+            background-color: darkslategray;
+            background-image: url('1600x900-Earth Horizon573158721.jpg');
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #weather {
+            height: 350px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid blue;
+            background-color: aliceblue;    
+            position: absolute;
+            right: 50px;
+            top: 150px;
+            z-index: 1000;
+            opacity: 0.8;
+            border-radius: 10px;
+        }   
+        #headin {
+            color: aquamarine;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 50px;
+            font-family: monospace;
+        }
+        #max-min {
+            display: block;
+            width: 300px;
+            justify-content: space-between;
+            padding: 10px;
+            margin-left: 150px;
+        }
+        #max, #min, #speed, #temp-desc {
+            font-size: 1.5rem;
+            
 
-}   
-
-#headin{
-    color: aquamarine;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 50px;
-    font-family: monospace;
-}
-#max-min{
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-    padding: 10px;
-}
-#max,#min,#speed,#temp-desc{
-    font-size: 1.5rem;
-
-}
-body{
-    background-color: darkslategray;
-    background-image: url(background.jpg);
-}
-#image{
-    width:120px;
-}
-
-#map{ 
-    height: 100vh; 
-}
+        }
+        #image {
+            width: 120px;
+            margin-left: 20px;
+        }
+        #map { 
+            height: 100vh; 
+        }
+        #temp-desc{
+            margin-right: 20px;
+        }
